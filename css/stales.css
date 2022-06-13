@@ -114,7 +114,7 @@ body {
 }
 
 .control {
-
+  outline-style: none;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -122,6 +122,32 @@ body {
   color: #212121;
 }
 .control:hover,
-.control:focus{
-    color: var(--acsent-text-color);
+.control:focus {
+  color: var(--acsent-text-color);
+}
+.control:active {
+  background-color: var(--acsent-text-color);
+  color: #ffffff;
+}
+.control.btn,
+.control.btn:focus {
+  color: #ffffff;
+  background-color: var(--acsent-text-color);
+}
+.items{
+    text-decoration: none;
+}
+.desc {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+
+  color: var(--primary-text-color);
+}
+.excerpt {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+
+  color: var(--secondary-text-color);
 }
