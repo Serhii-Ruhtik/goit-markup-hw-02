@@ -1,61 +1,114 @@
-:root{
-    --primary-text-color: #212121;
-    --secondary-text-color:#757575;
-    --acsent-text-color: #2196F3;
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --acsent-text-color: #2196f3;
 }
 
-
-
-
-/* header color text
-212121, 2196F3, 757575 */
 body {
-    background-color: #FFFFFF;
-    color: var(--primary-text-color);
+  background-color: #ffffff;
+  color: var(--primary-text-color);
+  font-family: roboto, sans-serif;
 }
-.list { 
-    list-style: none;
+.list {
+  list-style: none;
 }
-.text-note{
-    text-decoration: none;
-    color: var(--primary-text-color);
+.text-note {
+  text-decoration: none;
+  color: var(--primary-text-color);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.14;
 }
 .text-note:hover,
 .text-note:focus {
-    color: var(--acsent-text-color);
+  color: var(--acsent-text-color);
 }
-.current{
-    color: var(--acsent-text-color);
+.text-note.fonts {
+  font-family: Raleway;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 1.1;
 }
-.contact{
-    color:var(--secondary-text-color);
+.current {
+  color: var(--acsent-text-color);
+}
+.contact {
+  color: var(--secondary-text-color);
 }
 
 /* LOGO */
-.color-logo{
-    color: var(--acsent-text-color);
+.color-logo {
+  color: var(--acsent-text-color);
 }
 
 /* section-hero */
 
+.hero {
+  background-color: #2f303a;
+}
+.hero-h {
+  color: #ffffff;
+  font-size: 44px;
+  line-height: 1.36;
+  /* or 136% */
 
-.hero{
-    background-color: #2F303A;
+  text-align: center;
 }
-.hero-h{
-    color: #FFFFFF;
+.button {
+  background-color: var(--acsent-text-color);
+  font-family: inherit;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
 }
-.button{
-    background-color: var(--acsent-text-color);
+.button-text {
+  color: #ffffff;
 }
-.button-text{
-    color: #FFFFFF;
+
+.caption {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.15;
 }
 /* Section Features */
-.features .features-text{
-color: var(--secondary-text-color);
+.features .features-text {
+  color: var(--secondary-text-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+.headline {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
 }
 /* Section Comand */
-.comand{
-    background-color: #F5F4FA;
+.comand {
+  background-color: #f5f4fa;
+}
+.subject {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+.subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+.footer {
+  background-color: #2f303a;
+} 
+.slogan{
+    color: #ffffff;
+}
+.tagline {
+ font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+
+color: #FFFFFF;
 }
