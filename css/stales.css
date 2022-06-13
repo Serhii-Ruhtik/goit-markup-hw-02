@@ -100,15 +100,28 @@ body {
 
 .footer {
   background-color: #2f303a;
-} 
-.slogan{
-    color: #ffffff;
+}
+.slogan {
+  color: #ffffff;
 }
 .tagline {
- font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 1.71;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
 
-color: #FFFFFF;
+  color: #ffffff;
+}
+
+.control {
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+
+  color: #212121;
+}
+.control:hover,
+.control:focus{
+    color: var(--acsent-text-color);
 }
