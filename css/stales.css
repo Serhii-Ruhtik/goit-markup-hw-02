@@ -1,11 +1,61 @@
-body {
-    color: #50;
+:root{
+    --primary-text-color: #212121;
+    --secondary-text-color:#757575;
+    --acsent-text-color: #2196F3;
 }
 
-.titel {
-    color: brown;
+
+
+
+/* header color text
+212121, 2196F3, 757575 */
+body {
+    background-color: #FFFFFF;
+    color: var(--primary-text-color);
 }
-.titel:hover {
-    color: blue;
+.list { 
+    list-style: none;
 }
-614 230 4219
+.text-note{
+    text-decoration: none;
+    color: var(--primary-text-color);
+}
+.text-note:hover,
+.text-note:focus {
+    color: var(--acsent-text-color);
+}
+.current{
+    color: var(--acsent-text-color);
+}
+.contact{
+    color:var(--secondary-text-color);
+}
+
+/* LOGO */
+.color-logo{
+    color: var(--acsent-text-color);
+}
+
+/* section-hero */
+
+
+.hero{
+    background-color: #2F303A;
+}
+.hero-h{
+    color: #FFFFFF;
+}
+.button{
+    background-color: var(--acsent-text-color);
+}
+.button-text{
+    color: #FFFFFF;
+}
+/* Section Features */
+.features .features-text{
+color: var(--secondary-text-color);
+}
+/* Section Comand */
+.comand{
+    background-color: #F5F4FA;
+}
