@@ -8,9 +8,18 @@ body {
   background-color: #ffffff;
   color: var(--primary-text-color);
   font-family: roboto, sans-serif;
+  letter-spacing: 0.03em;
 }
 .list {
   list-style: none;
+}
+.list.comand {
+  width: 270px;
+  height: 368px;
+  left: 515px;
+  top: 1635px;
+
+  background: #ffffff;
 }
 .text-note {
   text-decoration: none;
@@ -71,7 +80,9 @@ body {
   line-height: 1.88;
   color: #ffffff;
 }
-
+.section-two {
+  display: none;
+}
 .caption {
   font-weight: 700;
   font-size: 36px;
