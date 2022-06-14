@@ -76,6 +76,9 @@ body {
   left: 700px;
   top: 430px;
 }
+.button:hover{
+  background-color: #188ce8;
+}
 .button-text {
   font-family: "Roboto";
   font-weight: 700;
