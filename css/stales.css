@@ -45,6 +45,9 @@ body {
 
 .hero {
   background-color: #2f303a;
+  transform: uppercase;
+  text-transform: uppercase;
+  
 }
 .hero-h {
   color: #ffffff;
