@@ -128,17 +128,10 @@ body {
 }
 .control:hover,
 .control:focus {
-  color: var(--acsent-text-color);
-}
-.control:active {
   background-color: var(--acsent-text-color);
   color: #ffffff;
 }
-.control.btn,
-.control.btn:focus {
-  color: #ffffff;
-  background-color: var(--acsent-text-color);
-}
+
 .items {
   text-decoration: none;
 }
