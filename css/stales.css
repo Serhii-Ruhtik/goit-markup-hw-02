@@ -2,13 +2,17 @@
   --primary-text-color: #212121;
   --secondary-text-color: #757575;
   --acsent-text-color: #2196f3;
+  --color-white: #ffffff;
+  --color-hero-footer:  #2f303a;
+  --color-button-hero: #188ce8;
 }
 
 body {
-  background-color: #ffffff;
+  background-color: var(--color-white);
   color: var(--primary-text-color);
   font-family: roboto, sans-serif;
   letter-spacing: 0.03em;
+  font-size: 14px;
 }
 .list {
   list-style: none;
@@ -19,22 +23,25 @@ body {
   left: 515px;
   top: 1635px;
 
-  background: #ffffff;
+  background: var(--color-white);
 }
 .text-note {
   text-decoration: none;
   color: var(--primary-text-color);
   font-style: normal;
-  font-size: 14px;
+  
   line-height: 1.14;
 }
 .text-note:hover,
 .text-note:focus {
   color: var(--acsent-text-color);
 }
+.text-note{
+   font-weight: 500;
+}
 .text-note.fonts {
   font-family: Raleway;
-  font-weight: 500;
+ 
   font-size: 26px;
   line-height: 1.1;
 }
@@ -46,6 +53,7 @@ body {
 }
 .contact {
   color: var(--secondary-text-color);
+  font-weight: normal;
 }
 
 /* LOGO */
@@ -56,12 +64,12 @@ body {
 /* section-hero */
 
 .hero {
-  background-color: #2f303a;
+  background-color: var(--color-hero-footer);
   transform: uppercase;
   text-transform: uppercase;
 }
 .hero-h {
-  color: #ffffff;
+  color: var(--color-white);
   font-size: 44px;
   line-height: 1.36;
   /* or 136% */
@@ -77,14 +85,14 @@ body {
   top: 430px;
 }
 .button:hover{
-  background-color: #188ce8;
+  background-color: var(--color-button-hero);
 }
 .button-text {
   font-family: "Roboto";
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  color: #ffffff;
+  color: var(--color-white);
 }
 .section-two {
   display: none;
@@ -104,10 +112,11 @@ body {
 .headline {
   font-size: 14px;
   line-height: 1.14;
+  text-transform: uppercase;
 }
 /* Section Comand */
 .comand {
-  background-color: #f5f4fa;
+  background-color: var(--color-white);
 }
 .subject {
   font-weight: 500;
@@ -118,21 +127,22 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
+  color: var(--secondary-text-color);
 }
 
 .footer {
-  background-color: #2f303a;
+  background-color: var(--color-hero-footer);
 }
 .slogan {
-  color: #ffffff;
+  color: var(--color-white);
 }
 .tagline {
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  
   line-height: 1.71;
 
-  color: #ffffff;
+  color: var(--color-white);
 }
 
 .control {
@@ -141,12 +151,12 @@ body {
   font-size: 16px;
   line-height: 1.62;
 
-  color: #212121;
+  color: var(--primary-text-color);
 }
 .control:hover,
 .control:focus {
   background-color: var(--acsent-text-color);
-  color: #ffffff;
+  color: var(--color-white);
 }
 
 .items {
@@ -156,6 +166,7 @@ body {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
+  letter-spacing: 0.06em;
 
   color: var(--primary-text-color);
 }
